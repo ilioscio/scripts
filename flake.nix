@@ -12,6 +12,6 @@
         pkgs = nixpkgs.legacyPackages.${system};
       in
       {
-        packages.fromFile = pkgs.writeScriptBin "my-script-from-file" (builtins.readFile ./test.sh);
+        packages.fromFile = pkgs.writeScriptBin "test-script" (builtins.readFile ./test.sh);
       });
 }

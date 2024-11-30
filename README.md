@@ -1,4 +1,5 @@
-# Example usage in your server's flake.nix:
+# Example usage in your system's flake.nix:
+```
 {
   inputs = {
     nixpkgs.url = "github:nixpkgs/nixpkgs/nixos-unstable";
@@ -18,3 +19,4 @@
     };
   };
 }
+```
